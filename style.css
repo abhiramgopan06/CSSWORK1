@@ -18,8 +18,26 @@
         }
         h2{
             text-align: center;
+            text-decoration: underline;
+
     }
     .hai{
         margin-left: 700px;
+    }
+    p{
+         word-spacing: 5px;
+    }
+    h1:hover{
+      color: rgb(181, 158, 32);
+    }
+    h1::first-letter{
+            color: rgb(157, 137, 26);
+    }
+     p::selection{
+            background-color: yellow;
+            color: red;
+     }
+      h1{
+            color: rgb(35, 124, 153);
     }
     
